@@ -1,5 +1,45 @@
+/****
+reset
+****/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+/** header **/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 320px;
+    margin-right: 320px;
+    padding: 20px 0 20px 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+/** main **/
+
+main {
+    background-color: #000;
 }

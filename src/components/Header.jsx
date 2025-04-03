@@ -3,12 +3,15 @@ import Menu from "./Menu";
 
 function Header() {
     return <header>
-        <div>
-            <Logo />
+        <div className="container-header mg">
+            <div>
+                <Logo />
+            </div>
+            <nav>
+                <Menu />
+            </nav>
         </div>
-        <nav>
-            <Menu />
-        </nav>
+
     </header>
 }
 

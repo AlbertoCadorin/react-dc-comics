@@ -3,7 +3,7 @@ import Menu from "./Menu";
 
 function Header() {
     return <header>
-        <div className="container-header mg">
+        <div className="container-header mg d-flex d-sb">
             <div>
                 <Logo />
             </div>

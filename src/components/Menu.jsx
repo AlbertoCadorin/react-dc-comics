@@ -1,5 +1,5 @@
 function Menu() {
-    return <ul>
+    return <ul className="d-flex">
         <li>Characters</li>
         <li>Comics</li>
         <li>Movies</li>

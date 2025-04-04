@@ -20,6 +20,25 @@ body {
     margin: 0 320px 0 320px;
 }
 
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bg-blue {
+    background-color: #0282f9;
+    position: relative;
+    z-index: 1;
+}
+
+.bg-grei {
+    background-color: #303030;
+}
+
+.list-white {
+    color: #fff;
+}
+
 /** header **/
 
 .container-header {
@@ -35,8 +54,6 @@ nav {
 
 ul {
     font-weight: bold;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 li {
@@ -53,4 +70,30 @@ main {
 
 h1 {
     color: aliceblue;
+}
+
+/** footer **/
+footer {
+    background-color: #303030;
+    position: relative;
+
+}
+
+.foot-top-img {
+    background-image: url(../public/footer-bg.jpg);
+    height: 380px;
+    background-size: cover;
+}
+
+.logo-foot {
+    position: absolute;
+    right: 300px;
+    top: -110px;
+    width: 30%;
+}
+
+.foot-boot {
+    height: 110px;
+    position: relative;
+    z-index: 1;
 }

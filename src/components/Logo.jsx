@@ -1,4 +1,4 @@
-import logo from "../assets/image/dc-logo.png";
+import logo from "../../public/dc-logo.png";
 
 function Logo() {
     return (

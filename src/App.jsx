@@ -6,6 +6,7 @@ import Main from "./components/Main";
 import BluStrip from "./components/BluStrip";
 
 
+
 function App() {
   return (
     <>

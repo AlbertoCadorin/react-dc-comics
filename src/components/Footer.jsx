@@ -2,7 +2,7 @@
 // Footer.jsx
 function Footer() {
     return (<>
-        <footer className="t-white bg-grei">
+        <footer className="t-white bg-grey">
 
             <div className="foot-top-img">
 
@@ -67,7 +67,7 @@ function Footer() {
                     <img src="/dc-logo-bg.png" alt="logo" />
                 </div>
             </div>
-            <div className="mg foot-boot bg-grei">
+            <div className="mg foot-boot bg-grey">
                 <button>SING-UP NOW!</button>
             </div>
 

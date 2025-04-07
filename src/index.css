@@ -26,6 +26,7 @@ a {
     margin: 0 320px 0 320px;
 }
 
+
 .mg-r {
     margin-right: 10px;
 }
@@ -50,6 +51,14 @@ a {
 .card-img {
     width: 185px;
     height: 190px;
+}
+
+.card-list {
+    width: calc((140% - 100px) / 2);
+}
+
+.icon-list {
+    width: 200px;
 }
 
 /** flex **/
@@ -91,6 +100,13 @@ a {
 
 .bg-grey {
     background-color: #303030;
+}
+
+.bg-jumbo {
+    background-image: url('https://www.warnerbros.it/wp-content/uploads/2018/01/Teen-Titans-GO-Il-film_header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
 }
 
 /** header **/

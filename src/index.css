@@ -42,6 +42,16 @@ a {
     width: 30%;
 }
 
+.card {
+    width: 185px;
+    height: 260px;
+}
+
+.card-img {
+    width: 185px;
+    height: 190px;
+}
+
 /** flex **/
 
 .d-flex {
@@ -57,10 +67,18 @@ a {
     align-items: center
 }
 
+.d-sb-center {
+    justify-content: center;
+}
+
 /** text color **/
 
 .t-white {
     color: #fff;
+}
+
+.t-black {
+    color: #000;
 }
 
 /** bg color **/
@@ -102,6 +120,10 @@ main {
 
 }
 
+.t-size {
+    font-size: 17px;
+}
+
 /** footer **/
 
 footer {
@@ -116,7 +138,7 @@ footer {
 
 .logo-foot {
     position: absolute;
-    right: 300px;
+    right: 120px;
     top: -110px;
     width: 30%;
 }

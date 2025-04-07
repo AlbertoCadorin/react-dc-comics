@@ -3,7 +3,7 @@ function BluStrip() {
         <>
             <div className="bg-blue pd-50">
                 <div className="mg">
-                    <ul className="d-flex d-sb t-white">
+                    <ul className="d-flex d-sb-center d-al  t-white">
                         <li>
                             <a href="#" className="d-flex d-al  t-white">
                                 <img className="great mg-r" src="../../buy-comics-digital-comics.png" alt="digital comics" />

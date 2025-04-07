@@ -3,7 +3,7 @@ function Menu(props) {
     const list = props.list
     return (<>
         <ul className="d-flex">
-            {list.map(list => <li><a href="#">{list}</a></li>)}
+            {list.map((list, index) => <li key={index} ><a href="#" className="t-black">{list}</a></li>)}
         </ul>
     </>)
 

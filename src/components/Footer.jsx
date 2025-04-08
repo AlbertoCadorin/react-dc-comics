@@ -4,7 +4,7 @@ function Footer() {
     return (<>
         <footer className="t-white bg-grey">
 
-            <div className="foot-top-img">
+            <div className="foot-top-img  pd-50">
 
                 <div className="mg">
 
